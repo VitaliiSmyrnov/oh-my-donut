@@ -40,9 +40,6 @@
   position: relative;
   margin: 0 auto;
   margin-bottom: 40px;
-  // top: 0;
-  // left: 50%;
-  // transform: translateX(-50%);
 
   @media screen and (max-width: 767px) {
     &:after {
@@ -140,8 +137,8 @@
 }
 
 @media screen and (min-width: 768px) {
-.footer__contact-link:hover,
-.footer__contact-link:focus{
-  color: $accent-pink-color;
-}
+  .footer__contact-link:hover,
+  .footer__contact-link:focus {
+    color: $accent-pink-color;
+  }
 }

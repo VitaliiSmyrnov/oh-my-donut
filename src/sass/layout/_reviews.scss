@@ -1,7 +1,4 @@
 .slick-center {
-  // @media screen and (min-width: $breakpoint-tablet) {
-  //   padding-top: 103px;
-  // }
   @media screen and (min-width: $breakpoint-decktop) {
     padding-top: 145px;
   }
@@ -10,7 +7,6 @@
   @media screen and (min-width: $breakpoint-tablet) {
     width: 151px;
     height: 151px;
-    // max-width: inherit;
   }
   @media screen and (min-width: $breakpoint-decktop) {
     width: 394px;
@@ -161,7 +157,6 @@
 
 .wrapper {
   height: 100%;
-  // padding: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -184,7 +179,6 @@
 /* Конкретный слайдер */
 .slider {
   position: relative;
-  // padding: 0px 60px;
 }
 
 .slider .slick-arrow {
@@ -211,8 +205,6 @@
 }
 
 .slider__item {
-  // margin-left: 16px;
-  // margin-right: 16px;
   transition: transform 750ms linear;
 }
 
@@ -256,7 +248,6 @@
       content: '';
       position: absolute;
       background-image: url('../images/reviews-img/stars5.svg');
-      //   background-size: contain;
       background-repeat: no-repeat;
       width: 136px;
       height: 24px;
@@ -270,7 +261,6 @@
         content: '';
         position: absolute;
         background-image: url('../images/reviews-img/stars4.svg');
-        //   background-size: contain;
         background-repeat: no-repeat;
         width: 136px;
         height: 24px;
@@ -321,8 +311,6 @@
     transition: transform 750ms linear, scale 750ms linear;
   }
   .slider__item {
-    // margin-left: 16px;
-    // margin-right: 16px;
     transition: transform 750ms linear;
   }
 }
